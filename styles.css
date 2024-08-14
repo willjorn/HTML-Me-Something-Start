@@ -1,1 +1,32 @@
 /* Write your CSS here! */
+/* Element Selector */
+body {
+    margin: 8px;
+    display: block;
+    font-family: Arial, sans-serif;
+}
+
+/* ID Selector */
+#mainHeading {
+    color: red;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+/* Class Selector */
+.funParagraph {
+    color: green;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Additional Styling */
+#testP {
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
